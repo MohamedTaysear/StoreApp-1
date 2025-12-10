@@ -15,7 +15,7 @@ class AppTheme {
       textTheme: const TextTheme(
         bodyLarge: TextStyle(color: KTextColor),
         bodyMedium: TextStyle(color: KTextColor),
-        bodySmall: TextStyle(color:KTextColor),
+        bodySmall: TextStyle(color: KTextColor),
       ),
       inputDecorationTheme: const InputDecorationTheme(
         floatingLabelBehavior: FloatingLabelBehavior.always,
@@ -42,6 +42,6 @@ class AppTheme {
 
 const OutlineInputBorder outlineInputBorder = OutlineInputBorder(
   borderRadius: BorderRadius.all(Radius.circular(28)),
-  borderSide: BorderSide(color:KTextColor),
+  borderSide: BorderSide(color: KTextColor),
   gapPadding: 12,
 );

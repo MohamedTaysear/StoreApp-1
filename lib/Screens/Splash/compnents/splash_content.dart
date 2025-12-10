@@ -14,7 +14,7 @@ class SplashContent extends StatelessWidget {
       children: [
         const Spacer(),
         Text(
-          "MIMI",
+          "STORE",
           style:
           TextStyle(
             fontSize: getProportionateScreenWidth(36),
